@@ -1,0 +1,503 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+}
+
+#signIN {
+    display: none;
+}
+
+#signOUT {
+    display: none;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    height: 99vh;
+    width: 99.7%;
+}
+
+.leftdiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+    width: 40%;
+}
+
+#heading {
+    color: #384259;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.rightdiv {
+    width: 30%;
+    padding: 20px;
+    height: 80vh;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+#email {
+    padding: 7px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 100px;
+    outline: none;
+    margin-bottom: 10px;
+    transition: 0.25s;
+    border: 1px solid #364f6b;
+    background: 0;
+}
+
+#email:hover {
+    width: 330px;
+    border: 2px solid #fc5185;
+}
+
+#password {
+    padding: 7px;
+    text-align: center;
+    border-radius: 100px;
+    outline: none;
+    margin-bottom: 20px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.25s;
+    border: 1px solid #364f6b;
+    background: 0;
+}
+
+#password:hover {
+    width: 330px;
+    border: 2px solid #fc5185;
+}
+
+#signup {
+    text-align: center;
+    border-radius: 100px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: 0.25s;
+    border: 1px solid #fc5185;
+    background: 0;
+}
+
+#signup:hover {
+    background: #fc5185;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+#line {
+    width: 80%;
+}
+
+#signin {
+    text-align: center;
+    border-radius: 100px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: 0.25s;
+    border: 1px solid #fc5185;
+    background: 0;
+}
+
+#signin:hover {
+    background: #fc5185;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.seconddiv {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.image2 {
+    width: 45%;
+    height: 25%;
+    margin-top: 3%;
+}
+
+#signout {
+    border-radius: 100px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 7px 70px;
+    cursor: pointer;
+    background: #fc5185;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+    body {
+        overflow: hidden;
+    }
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        width: 99%;
+    }
+    .rightdiv {
+        display: inline-block;
+        width: 98%;
+        margin-top: 0;
+        padding: 0;
+        height: 30%;
+    }
+    .image {
+        width: 80%;
+        height: 90%;
+    }
+    .leftdiv {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 98%;
+        height: 70%;
+    }
+    #heading {
+        margin-top: 10px;
+    }
+    #email {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    #email:hover {
+        width: 270px;
+    }
+    #password {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #password:hover {
+        width: 270px;
+    }
+    #signup {
+        padding: 7px;
+        width: 40%;
+        margin-bottom: 5px;
+    }
+    #line {
+        width: 95%;
+    }
+    #para {
+        margin-top: 0;
+    }
+    #signin {
+        padding: 7px;
+        width: 40%;
+    }
+    .seconddiv {
+        overflow: hidden;
+        margin-top: 35%;
+    }
+    .image2 {
+        width: 85%;
+        height: 50%;
+        margin-top: 5%;
+    }
+    #paragraph {
+        font-size: 20px;
+    }
+    #signout {
+        border-radius: 100px;
+        padding: 7px 40px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+    body {
+        overflow: hidden;
+    }
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        width: 99%;
+    }
+    .rightdiv {
+        display: inline-block;
+        width: 98%;
+        margin-top: 0;
+        padding: 0;
+        height: 30%;
+    }
+    .image {
+        width: 80%;
+        height: 90%;
+    }
+    .leftdiv {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        height: 70%;
+    }
+    #heading {
+        margin-top: 10px;
+    }
+    #email {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    #email:hover {
+        width: 280px;
+    }
+    #password {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #password:hover {
+        width: 280px;
+    }
+    #signup {
+        padding: 7px;
+        width: 40%;
+        margin-bottom: 0px;
+    }
+    #line {
+        width: 95%;
+    }
+    #para {
+        margin-top: 0;
+    }
+    #signin {
+        padding: 7px;
+        width: 40%;
+        margin-top: -10px;
+    }
+    .seconddiv {
+        overflow: hidden;
+        margin-top: 25%;
+    }
+    .image2 {
+        width: 90%;
+        height: 55%;
+        margin-top: 5%;
+    }
+    #paragraph {
+        font-size: 25px;
+    }
+    #signout {
+        border-radius: 100px;
+        padding: 7px 40px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 425px) {
+    body {
+        overflow: hidden;
+    }
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        width: 99%;
+    }
+    .rightdiv {
+        display: inline-block;
+        width: 98%;
+        margin-top: 0;
+        padding: 0;
+        height: 30%;
+    }
+    .image {
+        width: 95%;
+        height: 90%;
+    }
+    .leftdiv {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        height: 70%;
+    }
+    #heading {
+        margin-top: 10px;
+    }
+    #email {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    #email:hover {
+        width: 300px;
+    }
+    #password {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #password:hover {
+        width: 300px;
+    }
+    #signup {
+        padding: 7px;
+        width: 40%;
+        margin-bottom: 0px;
+    }
+    #line {
+        width: 95%;
+    }
+    #para {
+        margin-top: 0;
+    }
+    #signin {
+        padding: 7px;
+        width: 40%;
+        margin-top: -10px;
+    }
+    .seconddiv {
+        overflow: hidden;
+        margin-top: 20%;
+    }
+    .image2 {
+        width: 90%;
+        height: 55%;
+        margin-top: 5%;
+    }
+    #paragraph {
+        font-size: 25px;
+    }
+    #signout {
+        border-radius: 100px;
+        padding: 7px 40px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 601px) {
+    body {
+        overflow: hidden;
+    }
+    .maindiv {
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        width: 99.5%;
+    }
+    .rightdiv {
+        display: inline-block;
+        width: 45%;
+        margin-top: 0;
+        padding: 0;
+        height: 70%;
+    }
+    .image {
+        width: 80%;
+        height: 90%;
+    }
+    .leftdiv {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 45.5%;
+        height: 50%;
+    }
+    #heading {
+        margin-top: 10px;
+    }
+    #email {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    #email:hover {
+        width: 320px;
+    }
+    #password {
+        padding: 7px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #password:hover {
+        width: 320px;
+    }
+    #signup {
+        padding: 7px;
+        width: 35%;
+        margin-bottom: 0px;
+    }
+    #line {
+        width: 95%;
+    }
+    #para {
+        margin-top: 0;
+    }
+    #signin {
+        padding: 7px;
+        width: 35%;
+        margin-top: -10px;
+    }
+    .seconddiv {
+        overflow: hidden;
+        margin-top: 15%;
+    }
+    .image2 {
+        width: 70%;
+        height: 35%;
+        margin-top: 5%;
+    }
+    #paragraph {
+        font-size: 35px;
+    }
+    #signout {
+        border-radius: 100px;
+        padding: 7px 50px;
+        margin-top: 15px;
+    }
+}
