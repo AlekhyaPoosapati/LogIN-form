@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="signIN">
+        <div class="maindiv">
+            <div class="rightdiv">
+                <img class="image" src="loginpic.svg" />
+            </div>
+            <div class="leftdiv">
+                <h1 id="heading">Sign In</h1>
+                <input id="email" type="email" placeholder="e-mail" />
+                <input id="password" type="password" placeholder="password" />
+                <button id="signup" onclick="signUp()">Sign Up</button>
+                <hr id="line">
+                <p id="para">Already have an account?</p>
+                <button id="signin" onclick="signIn()">Sign In</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="signOUT">
+        <div class="seconddiv">
+            <img class="image2" src="welcomingpic.svg" />
+            <h1 id="paragraph">Welcome </h1>
+            <button id="signout" onclick="signOut() ">Sign Out</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</html>
